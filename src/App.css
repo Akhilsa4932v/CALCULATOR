@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('../public/image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+
+h1{
+font-style:initial;
+color: white;
+font-weight: 800;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+} 
+
+.output{
+    outline: none;
+    border: none;
+    width: 320px;
+    height: 70px;
+    font-size: 32px;
+    padding: 2px 10px;
+    background-color: #333333;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #ffffff;
+    text-align: right;
+}
+button{
+    height: 90px;
+    width: 85px;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    border-top:2px solid black;
+    border-right: 2px solid black;
+
+}
+
+.operator{
+    border-right: none;
+    background-color: orange;
+    color: white;
+}
+.func-key{
+    background-color: #c9c8cc;
+}
+
+.digit:hover{
+    background-color: #d9d9d9;
+}
+
+.operator:hover{
+    background-color: #c7790f;
+}
+
+.func-key:hover{
+    background-color: #aba9a9;
+}
